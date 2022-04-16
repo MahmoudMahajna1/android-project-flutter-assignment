@@ -1,16 +1,12 @@
-# hello_me
+Dry part solution:-
 
-A new Flutter project.
+- Question 1:
+    SnappingSheetController is the controller class of SnappingSheet. Using SnappingSheetController, developers can control the snapping, 
+    some examples: choose the different snapping positions (SnapPositions), check the current snapping, change the current snapping position (SnapToPosition method).
 
-## Getting Started
+- Question 2:
+    SnappingCurve is responsible for the snapping animation style. With the help of other properties such as SnappingDuration this animation can be customized. 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Question 3:
+    Inkwell advantage over GestureDetector: Inkwell supports Material Design ripple effect on tap.
+    GestureDetector advantage over Inkwell: GestureDetector offers support for a big set of gesture events compared to Inkwell, such as pinching and dragging.
